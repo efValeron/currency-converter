@@ -1,3 +1,10 @@
+import { ConvertForm } from "@/features/convert/ui"
+import S from "./app.module.scss"
+
 export const App = () => {
-  return <div></div>
+  return (
+    <main className={S.app}>
+      <ConvertForm />
+    </main>
+  )
 }
