@@ -1,0 +1,17 @@
+.mainSection {
+  display: flex;
+  gap: 1rem;
+
+  div {
+    width: 24rem;
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+
+    th, td {
+      padding: .25rem;
+    }
+  }
+}
