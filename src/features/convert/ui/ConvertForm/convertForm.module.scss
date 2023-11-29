@@ -1,7 +1,7 @@
 .form {
   display: flex;
-  min-width: 16rem;
   gap: 1rem;
+  align-items: center;
 
   /* Chrome, Safari, Edge, Opera */
   input::-webkit-outer-spin-button,
@@ -26,4 +26,5 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 16rem;
 }

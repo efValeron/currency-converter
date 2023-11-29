@@ -5,6 +5,7 @@ export const App = () => {
   return (
     <main className={S.app}>
       <ConvertForm />
+      {/*<CurrencyRatesSection />*/}
     </main>
   )
 }

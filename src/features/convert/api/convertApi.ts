@@ -16,7 +16,7 @@ export const convertApi = createApi({
   }),
 })
 
-export const { useLazyConvertQuery } = convertApi
+export const { useLazyConvertQuery, useConvertQuery } = convertApi
 
 type ConvertArg = Omit<Inputs, "amount"> & { amount: string }
 
